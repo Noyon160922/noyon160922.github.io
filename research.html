@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research — Noyon Kumar Sarkar</title>
+<meta name="description" content="Research on soft actuators, artificial muscle, stretchable circuits and bio-inspired soft robots at the ECMS Lab, Gachon University.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600&family=Inter:wght@400;500;600;650&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/main.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="index.html">Noyon Kumar Sarkar<span>Soft Robotics · Gachon University</span></a>
+    <div class="nav-links">
+      <a href="index.html">About</a>
+      <a href="research.html" class="active">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="cv.html">CV &amp; Contact</a>
+      <button class="theme-toggle" type="button" aria-label="Toggle theme">☾</button>
+    </div>
+  </nav>
+</header>
+
+<main>
+<div class="wrap">
+
+  <section style="padding-top:44px">
+    <h1>Research</h1>
+    <p class="lede">
+      Soft robots trade rigid links and motors for materials that deform. That shift moves the hard
+      problems into the material and the circuit — how to get large motion from low voltage, and how to
+      build electronics that stretch with the body they control. My work sits on that boundary.
+    </p>
+  </section>
+
+  <section>
+    <h2 class="ruled">Current Work — ECMS Lab, Gachon University</h2>
+
+    <div class="theme">
+      <span class="tag">Actuation</span>
+      <h3>Low-voltage artificial muscle actuators</h3>
+      <p>
+        Conventional actuators need high driving voltages that make untethered operation impractical.
+        I work on soft actuators — ionic and hydrogel-based systems paired with nanomembrane electrodes —
+        that generate useful strain and blocking force at voltages low enough to be driven from a small
+        on-board supply. The design questions are material composition, electrode interface quality, and
+        the trade-off between actuation speed, strain, and cycle life.
+      </p>
+      <!-- REPLACE with your actual project description, results and a figure.
+           Example figure markup:
+           <img src="assets/img/actuator.jpg" alt="Actuator prototype" style="border-radius:6px;margin:14px 0">
+           <p class="faint">Fig. 1 — Caption describing what the reader is looking at.</p> -->
+    </div>
+
+    <div class="theme">
+      <span class="tag">Circuits</span>
+      <h3>Stretchable circuits and driving electronics</h3>
+      <p>
+        An actuator is only half a robot. I design and fabricate the flexible and stretchable circuitry
+        that drives these actuators — deformable interconnects, low-power control electronics, and
+        wireless control interfaces — so that the electronics survive the same strains as the body they
+        sit on. This draws directly on my background in analog and mixed-signal circuit design.
+      </p>
+    </div>
+
+    <div class="theme">
+      <span class="tag">Systems</span>
+      <h3>Bio-inspired soft robots</h3>
+      <p>
+        Integrating actuators, circuits and power into complete machines: terrestrial and aquatic soft
+        robots that move by deformation rather than by joints, with an emphasis on miniaturization toward
+        microrobotic systems for therapeutic and hard-to-reach applications.
+      </p>
+    </div>
+
+    <div class="todo">
+      <strong>To personalise:</strong> replace the three blocks above with your actual project titles,
+      what you built, what you measured, and one figure or short video each. Concrete results —
+      "achieved X% strain at 1&nbsp;V" — are what make a research page worth reading. Delete this box
+      when you are done (search for <code>class="todo"</code> in <code>research.html</code>).
+    </div>
+  </section>
+
+  <section>
+    <h2 class="ruled">Earlier Research</h2>
+
+    <div class="theme">
+      <span class="tag">Mixed-signal design</span>
+      <h3>6-bit threshold inverter quantization (TIQ) flash ADC</h3>
+      <p>
+        My M.S. research at Khulna University. I designed a flash analog-to-digital converter using only
+        CMOS inverters as comparators, removing resistor ladders and their sensitivity to process and
+        temperature variation. Implemented in 0.25&nbsp;µm CMOS and simulated in Siemens Tanner EDA.
+      </p>
+      <p class="pub-links"><a href="https://doi.org/10.48550/arXiv.2501.04627" target="_blank" rel="noopener">Preprint →</a></p>
+    </div>
+
+    <div class="theme">
+      <span class="tag">Assistive robotics</span>
+      <h3>Brain-controlled wheelchair with smart features</h3>
+      <p>
+        My undergraduate thesis: an Arduino-based wheelchair driven by EEG signals captured with a
+        NeuroSky MindWave sensor and relayed through an Android application. An early lesson in building
+        machines that respond to a human body rather than to a joystick.
+      </p>
+      <p class="pub-links"><a href="https://doi.org/10.48550/arXiv.2501.03371" target="_blank" rel="noopener">Preprint →</a></p>
+    </div>
+
+    <div class="theme">
+      <span class="tag">Deep learning</span>
+      <h3>Med-2D SegNet — efficient medical image segmentation</h3>
+      <p>
+        A compact segmentation network built around the Med Block, reaching state-of-the-art accuracy
+        with 2.07M parameters and strong cross-dataset generalization across KVASIR-SEG, PH2, EndoVis
+        and GLAS — aimed at diagnostic tools that must run in resource-constrained settings.
+      </p>
+      <p class="pub-links"><a href="https://doi.org/10.48550/arXiv.2504.14715" target="_blank" rel="noopener">Preprint →</a></p>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="ruled">Applied Machine Learning</h2>
+    <p>
+      Before starting at Gachon I worked for two years as a machine learning engineer, which is where I
+      learned to build systems that have to keep working outside a notebook.
+    </p>
+    <h3>Handwritten Bangla OCR</h3>
+    <p>
+      An end-to-end recognition system for handwritten Bangla at word and sentence level, using a CRNN
+      with a ResNet-34 backbone. Bangla is an under-resourced script with little annotated handwriting
+      data, so I combined semi-supervised training — self-training and consistency regularization — with
+      synthetic text generated from custom in-house Bangla handwriting fonts, cutting the manual
+      annotation burden substantially.
+    </p>
+    <h3>Document OCR and computer vision in production</h3>
+    <p>
+      Table extraction from supply-chain and government documentation (TIN, BIN, tax return forms) and
+      HR systems, served through APIs to multiple client organizations, with automated data processing
+      and retraining pipelines. Also built a face recognition pipeline (MTCNN detection, ArcFace
+      recognition) over image, video and live webcam streams.
+    </p>
+  </section>
+
+  <section>
+    <h2 class="ruled">Tools I Work With</h2>
+    <dl>
+      <div class="skill-row">
+        <dt>Fabrication &amp; characterization</dt>
+        <dd><span class="pill">Nanoparticle synthesis</span><span class="pill">Ion gel preparation</span><span class="pill">Nanomembrane electrodes</span><span class="pill">Actuator testing</span>
+          <!-- REPLACE: list the equipment and techniques you actually use in the lab --></dd>
+      </div>
+      <div class="skill-row">
+        <dt>Circuits &amp; hardware</dt>
+        <dd><span class="pill">Tanner EDA</span><span class="pill">HSpice</span><span class="pill">CMOS design</span><span class="pill">Arduino</span></dd>
+      </div>
+      <div class="skill-row">
+        <dt>Programming</dt>
+        <dd><span class="pill">Python</span><span class="pill">C</span><span class="pill">MATLAB</span></dd>
+      </div>
+      <div class="skill-row">
+        <dt>Machine learning</dt>
+        <dd><span class="pill">PyTorch</span><span class="pill">TensorFlow</span><span class="pill">Keras</span><span class="pill">scikit-learn</span><span class="pill">OpenCV</span><span class="pill">pandas</span></dd>
+      </div>
+    </dl>
+  </section>
+
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap-wide">
+    <div>© <span id="year">2026</span> Noyon Kumar Sarkar</div>
+    <div><a href="mailto:noyonkumarsarkar@gmail.com">noyonkumarsarkar@gmail.com</a> · Seongnam, Republic of Korea</div>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+
+</body>
+</html>
